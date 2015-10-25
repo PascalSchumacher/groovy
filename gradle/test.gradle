@@ -73,7 +73,7 @@ test {
 }
 
 boolean isRunningOnCI() {
-    new File('C:/.groovy/grapes/stax').deleteDir()
+    new File('C:/.groovy/grapes/org.apache.ant').deleteDir()
     new File('.').absolutePath =~ /teamcity|jenkins|hudson/
 }
 
