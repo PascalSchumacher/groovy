@@ -70,7 +70,7 @@ class GrabResolverTest extends GroovyTestCase {
         """
     }
 
-  public void testResolverDefinitionIsRequired() {
+  public void manualtestResolverDefinitionIsRequired() {
         GroovyShell shell = new GroovyShell(new GroovyClassLoader())
         shouldFail(CompilationFailedException) {
             shell.evaluate("""
