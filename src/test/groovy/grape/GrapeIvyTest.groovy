@@ -278,8 +278,6 @@ class GrapeIvyTest extends CompilableTestSupport {
 
     @Test
     void testClassifierWithConf() {
-        assumeNotOnBuildsApacheOrgAndNotOnWindows()
-
         def coreJars = [
                 "json-lib-2.2.3-jdk15.jar",
                 "commons-lang-2.4.jar",
